@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-2.1.2.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+
+  <title>Yuki Kubota - Online CV</title>
+  
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+
+<header>
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#yk-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#welcome" class="navbar-brand">YK</a>
+      </div>
+
+      <div id="yk-navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">Bio</a></li>
+          <li><a href="#info">Details</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header> <!-- end header -->
+
+<!-- Welcome section -->
+<section id="welcome" class="container-fluid clearfix">
+  <div class="container">
+    <div class="yuki">
+      <div class="meImage">
+        <img src="img/yuki-kubota.jpg" alt="Bio Picture" class="img-circle img-responsive">
+      </div>
+      <h1>Yuki Kubota</h1>
+      <h3>Front-end web developer</h3>
+      <p>I get a rush from seeing my code come alive!</p>
+      <a href="#about" class="btn btn-outline" role="button">read more...</a>
+      <div class="socialBar">
+        <a href="https://twitter.com/Kubotayuki" class="twitter"></a>
+        <a href="https://au.linkedin.com/in/yukikubota" class="linkedin"></a>
+        <a href="https://github.com/kubotayuki" class="github"></a>        
+      </div>
+    </div>
+  </div> 
+</section>
+
+<!-- Hero Image Carousel -->
+<section id="portfolio" class="container-fluid clearfix">
+  <!-- Carousel for tablet and above -->
+  <div class="portfolioContainer hidden-xs">
+    <div id="carousel-heroSection" class="carousel slide" data-ride="carousel">
+      <!-- indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-heroSection" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-heroSection" data-slide-to="1"></li>
+        <li data-target="#carousel-heroSection" data-slide-to="2"></li>
+        <li data-target="#carousel-heroSection" data-slide-to="3"></li>
+        <li data-target="#carousel-heroSection" data-slide-to="4"></li>
+      </ol>
+
+      <!-- wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item slide01 active">
+          <img src="img/portfolio-image-duzen-wide.jpg" alt="Portfolio Duzen">
+          <div class="carousel-caption">
+            <h2>Du Zen!</h2>
+            <p>Fully custom template built on woocommerce.</p>
+            <ul>
+              <li>Contracted work from Glenn Zanatta Designs</li>
+              <li>PSD to Hand Coded HTML/CSS</li>
+              <li>Custom built Template files with PHP</li>
+              <li>jQuery/Javascript for dynamic elements</li>
+              <li>CMS (Wordpress) integration</li>
+            </ul>
+          </div>
+        </div>
+        <div class="item slide02">
+          <img src="img/portfolio-image-halcro-wide.jpg" alt="Portfolio Halcro">
+        </div>
+        <div class="item slide03">
+          <img src="img/portfolio-image-marketforces-wide.jpg" alt="Portfolio MarketForces">
+        </div>
+        <div class="item slide04">
+          <img src="img/portfolio-image-jym-wide.jpg" alt="Portfolio Jog Your Memory">
+        </div>
+        <div class="item slide05">
+          <img src="img/portfolio-image-superswitch-wide.jpg" alt="Portfolio Super Switch">
+        </div>
+      </div><!-- end of slide Wrapper -->
+      
+      <!-- controls -->
+      <a href="#carousel-heroSection" class="left carousel-control" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a href="#carousel-heroSection" class="right carousel-control" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!-- end of Carousel for tablet and above -->
+
+  <!-- Carousel for mobile -->  
+  <div class="portfolioContainerSmall visible-xs-block">
+    <div id="carousel-heroSectionSmall" class="carousel slide" data-ride="carousel">
+      <!-- indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-heroSectionSmall" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-heroSectionSmall" data-slide-to="1"></li>
+        <li data-target="#carousel-heroSectionSmall" data-slide-to="2"></li>
+        <li data-target="#carousel-heroSectionSmall" data-slide-to="3"></li>
+        <li data-target="#carousel-heroSectionSmall" data-slide-to="4"></li>
+      </ol>
+
+      <!-- wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item slide01 active">
+          <img src="img/portfolio-image-duzen-small.jpg" alt="Portfolio Duzen">
+        </div>
+        <div class="item slide02">
+          <img src="img/portfolio-image-halcro-small.jpg" alt="Portfolio Halcro">
+        </div>
+        <div class="item slide03">
+          <img src="img/portfolio-image-marketforces-small.jpg" alt="Portfolio MarketForces">
+        </div>
+        <div class="item slide04">
+          <img src="img/portfolio-image-jym-small.jpg" alt="Portfolio Jog Your Memory">
+        </div>
+        <div class="item slide05">
+          <img src="img/portfolio-image-superswitch-small.jpg" alt="Portfolio Super Switch">
+        </div>
+      </div>
+      <!-- end of wrapper for slides -->
+      
+      <!-- controls -->
+      <a href="#carousel-heroSectionSmall" class="left carousel-control" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a href="#carousel-heroSectionSmall" class="right carousel-control" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <!-- end of Carousel for mobile -->
+</section>
+
+<!-- About Section -->
+<section id="about">
+  <h2 class="pageTitle"><span><em>Bio</em></span></h2>
+  <article class="container narrowColumn">
+    <h3>My name is Yuki Kubota</h3>
+      <p>My story doesn’t begin with a child genius who started coding before he could speak. It does, however, tell of a 14 year old who got his first PC running MS-DOS and who has since had a lasting affair with all things technology and web.</p>
+
+      <p>I was Born in Japan, but have lived, studied and worked in 5 different countries. To put is simply, both my personal and professional paths have been atypical. From working as an event manager in Tokyo, to Project Coordinator for humanitarian projects in India and Cambodia. I believe these experiences have given me the ability to adapt quickly to new cultures and enviroments.</p>
+
+      <p>Moving to Melbourne in 2011 ( I Love this city! ), I decided to pursue my fascination with web development and have been steadily honing my craft as a freelance front-end web developer while juggling the fulltime job of being the primary carer for my beautiful daughters.</p>
+      <p>What was initially a fascination has become a full blown passion. And now ( The stars have finally aligned ) I’m eager and able to dive in full time and take things to the next level. </p>
+
+      <p>My experiences so far have taught me that:
+        <ul>
+          <li>1. Learning never ends.</li>
+          <li>2. I am highly skilled at finding the solutions to the problems I face and then learning from them.</li>
+          <li>3. Semantic, clean, properly commented code is a beautiful thing.</li>
+          <li>4. I adapt well to new cultures, customs and workflows.</li>
+        </ul>
+      </p>
+
+      <p>I’m a highly driven individual with a strong work ethic. While I may be lacking in agency experience, I am no stranger to working in teams, and the client facing side of my freelance work has kept my communication skills sharp.</p>
+  </article> <!-- Container Narrow Column -->
+
+    <div class="container mediumColumn">
+      <div class="row">
+        <div class="col-md-4 col-xs-12">
+          <div class="columnHeader">
+            <i class="fa fa-code fa-5x"></i>
+          </div>
+          <h2>Front-end skills:</h2>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Sass</li>
+              <li>Javascript</li>
+              <li>jQuery</li>
+              <li>Wordpress development</li>
+              <li>Bootstrap</li>
+              <li>GitHub</li>
+            </ul>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <div class="columnHeader">
+            <i class="fa fa-check-square-o fa-5x"></i>
+          </div>
+          <h2>Life Skills:</h2>
+            <ul>
+              <li>Punctual</li>
+              <li>Excellent written/verbal skills</li>
+              <li>Efficient</li>
+              <li>Strong work ethic</li>
+              <li>Problem Solving</li>
+              <li>Learn quickly</li>
+            </ul>
+        </div>
+        <div class="col-md-4 col-xs-12">
+          <div class="columnHeader">
+            <i class="fa fa-heart-o fa-5x"></i>
+          </div>
+          <h2>Other Interests:</h2>
+          <ul>
+            <li>Footsal</li>
+            <li>Basketball</li>
+            <li>Netflix with my daughters</li>
+            <li>Japanese beer</li>
+          </ul>
+        </div>
+      </div>
+    </div>  
+</section>
+
+<!-- More info section -->  
+<section id="info" class="moreInfo">
+  <h2 class="pageTitle"><span><em>Even more info</em></span></h2>
+  <div class="container mediumColumn heightAdjust">
+    <div class="panel-group" id="accordion">
+      <div class="panel panel-default">
+        <a href="#collapseOne" data-toggle="collapse" data-parent="accordion" aria-expanded="false">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              View or download my CV <span class="glyphicon glyphicon-chevron-down"></span>
+            </h4>
+          </div>
+        </a>
+      </div>
+
+      <div id="collapseOne" class="panel-collapse collapse">
+        <div class="panel-body">
+          <iframe src="assets/Yuki_Kubota_Resume.pdf" class="hidden-xs hidden-sm"></iframe>
+          <a href="assets/Yuki_Kubota_Resume.pdf" class="visible-xs-block visible-sm-block myResume"><img src="img/Yuki-kubota-resume.jpg"></a>
+        </div>
+      </div>
+
+      <div class="panel panel-default">
+        <a href="#collapseTwo" data-toggle="collapse" data-parent="accordion" aria-expanded="false">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              Just techinical stuff <span class="glyphicon glyphicon-chevron-down"></span>
+            </h4>
+          </div>
+        </a>
+      </div>
+
+      <div id="collapseTwo" class="panel-collapse collapse">
+        <div class="panel-body">
+          <p>I'm confident on both Mac and Windows systems, although I definitely prefer Apple products. </p>
+          <div class="row">
+            <div class="col-sm-6 col-xs-12">
+              <p class="columnTitle">My work equipment consists of:</p>
+              <ul>
+                <li>Macbook Pro Retina 13"</li>
+                <li>Thunderbolt Display</li>
+                <li>Magic Mouse</li>
+                <li>Apple wireless keyboard</li>
+                <li>Super Mouse pad</li>
+                <li>Lots of legal pads and pens</li>
+                <li>iPad 2</li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+              <p class="columnTitle">Apps I use regularly:</p>
+              <ul>
+                <li>Sublime Text 2</li>
+                <li>Chrome</li>
+                <li>Safari</li>
+                <li>MAMP</li>
+                <li>Pixelmator</li>
+                <li>CyberDuck</li>
+                <li>CodeKit</li>
+                <li>Github</li>
+                <li>Terminal</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- Panel Group end -->
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2 class="pageTitle"><span><em>Contact</em></span></h2>
+  <div class="container narrowColumn heightAdjust">
+    <p class="contactInfo">If you'd like to contact me, say hello or give me some feedback (which I would greatly appreciate) I can be reached at:
+      <p class="contactInfo emailContact"><span class="glyphicon glyphicon-envelope"></span>
+        <a href="mailto:kubotayuki@gmail.com"> kubotayuki@gmail.com</a>
+      </p>
+      <p class="contactInfo telContact"><span class="glyphicon glyphicon-earphone"></span>
+        <a href="tel:0451349727"> 0451 349 727</a>
+      </p>
+      <p class="formContact">Or by filling out the form below.</p>
+    </p>
+    <form action="" method="post" name="contact">
+      <div class="form-group">
+        <label for="name" class="sr-only">Name</label>
+        <input type="text" name="name" id="name" class="form-control" placeholder="Name" required="required">
+      </div>
+      <div class="form-group">
+        <label for="email" class="sr-only">Email</label>
+        <input type="email" name="email" id="name" class="form-control" placeholder="email" required="required">
+      </div>
+      <div class="form-group">
+        <label for="message" class="sr-only">Message</label>
+        <textarea type="textarea" name="message" id="message" class="form-control" cols="20" rows="5"placeholder="message"></textarea>
+      </div>
+      <button type="submit" id="sendButton" class="btn btn-default">Submit</button>     
+    </form>   
+  </div>
+</section>
+
+
+  <script type="text/javascript">
+    var $root = $('html, body');
+      $('.navbar a').click(function() {
+        var href = $.attr(this, 'href');
+        $root.animate({
+          scrollTop: $(href).offset().top
+        }, 500, function(){
+          window.location.hash = href;
+        });
+        return false;
+      });
+  </script>
+
+
+</body>  
+</html>
