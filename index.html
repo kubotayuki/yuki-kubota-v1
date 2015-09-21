@@ -33,15 +33,15 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="#welcome" class="navbar-brand"><img src="img/yukikubota-logo.png"></a>
+        <a href="#welcome" class="navbar-brand smoothScroll"><img src="img/yukikubota-logo.png"></a>
       </div>
 
       <div id="yk-navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#about">Bio</a></li>
-          <li><a href="#info">Details</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+          <li><a href="#about" class="smoothScroll">Bio</a></li>
+          <li><a href="#info" class="smoothScroll">Details</a></li>
+          <li><a href="#contact" class="smoothScroll">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -58,7 +58,7 @@
       <h1>Yuki Kubota</h1>
       <h3>Front-end web developer</h3>
       <p>I get a rush from seeing my code come alive!</p>
-      <a href="#about" class="btn btn-outline" role="button">read more...</a>
+      <a href="#about" class="btn btn-outline smoothScroll" role="button">read more...</a>
       <div class="socialBar">
         <a href="https://twitter.com/Kubotayuki" class="twitter"></a>
         <a href="https://au.linkedin.com/in/yukikubota" class="linkedin"></a>
@@ -178,18 +178,18 @@
     <h3>My name is Yuki Kubota</h3>
       <p>My story doesn’t begin with a child genius who started coding before he could speak. It does, however, tell of a 14 year old who got his first PC running MS-DOS and who has since had a lasting affair with all things technology and web.</p>
 
-      <p>I was Born in Japan, but have lived, studied and worked in 5 different countries. To put is simply, both my personal and professional paths have been atypical. From working as an event manager in Tokyo, to Project Coordinator for humanitarian projects in India and Cambodia. I believe these experiences have given me the ability to adapt quickly to new cultures and enviroments.</p>
+      <p>I was Born in Japan, but have lived, studied and worked in 5 different countries. To put it simply, both my personal and professional paths have been atypical. From working as an event manager in Tokyo, to Project Coordinator for humanitarian projects in India and Cambodia. I believe these experiences have given me the ability to adapt quickly to new cultures and enviroments.</p>
 
       <p>Moving to Melbourne in 2011 ( I Love this city! ), I decided to pursue my fascination with web development and have been steadily honing my craft as a freelance front-end web developer while juggling the fulltime job of being the primary carer for my beautiful daughters.</p>
       <p>What was initially a fascination has become a full blown passion. And now ( The stars have finally aligned ) I’m eager and able to dive in full time and take things to the next level. </p>
 
       <p>My experiences so far have taught me that:
-        <ul>
-          <li>1. Learning never ends.</li>
-          <li>2. I am highly skilled at finding the solutions to the problems I face and then learning from them.</li>
-          <li>3. Semantic, clean, properly commented code is a beautiful thing.</li>
-          <li>4. I adapt well to new cultures, customs and workflows.</li>
-        </ul>
+        <ol>
+          <li>Learning never ends.</li>
+          <li>I am highly skilled at finding the solutions to the problems I face and then learning from them.</li>
+          <li>Semantic, clean, properly commented code is a beautiful thing.</li>
+          <li>I adapt well to new cultures, customs and workflows.</li>
+        </ol>
       </p>
 
       <p>I’m a highly driven individual with a strong work ethic. While I may be lacking in agency experience, I am no stranger to working in teams, and the client facing side of my freelance work has kept my communication skills sharp.</p>
@@ -206,7 +206,7 @@
               <li>HTML5</li>
               <li>CSS3</li>
               <li>Sass</li>
-              <li>Javascript</li>
+              <li>JavaScript</li>
               <li>jQuery</li>
               <li>Wordpress development</li>
               <li>Bootstrap</li>
@@ -346,7 +346,7 @@
 
   <script type="text/javascript">
     var $root = $('html, body');
-      $('.navbar a').click(function() {
+      $('.smoothScroll').click(function() {
         var href = $.attr(this, 'href');
         $root.animate({
           scrollTop: $(href).offset().top
